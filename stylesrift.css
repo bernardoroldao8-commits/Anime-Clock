@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: url("/img/fundo-aizen.gif") no-repeat center center/cover;
+
+    filter: blur(15px) brightness(1.0);
+    z-index: -1;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px 0;
+
+}
+
+.menu li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 380px;
+    text-shadow: 0 0 10px #fefcff;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: .6s;
+}
+
+
+.menu a {
+    color: #00ADB5;
+    transition: .6s;
+
+}
+
+.inicio:hover {
+    transform: scale(1.15);
+    color: #FFEF5F;
+    text-shadow: 0 0 10px #FFEF5F;
+}
+
+.RIFT:hover {
+    transform: scale(1.15);
+    color: #00ADB5;
+    text-shadow: 0 0 10px #00ADB5;
+}
+
+
+
+.KOKU:hover {
+    transform: scale(1.15);
+    color: #9929EA;
+    text-shadow: 0 0 10px #9929EA;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 40px;
+    transition: .6s;
+}
+
+.logo:hover {
+    transform: scale(1.15);
+
+}
+
+.tudo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    Justify-content: space-around;
+    height: 400px;
+    width: 800px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.25),
+        inset 0 4px 10px rgba(255, 255, 255, 0.4),
+        inset 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+.relogio div {
+    height: 330px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: transparent;
+    border-radius: 45px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.25),
+        inset 0 4px 10px rgba(255, 255, 255, 0.4),
+        inset 0 -4px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 3px;
+}
+
+.relogio div:hover {
+    transform: scale(1.10);
+    transition: .6s;
+ text-shadow: 0 0 10px #00ADB5;
+}
+
+
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+
+}
+
+.ativo {
+    box-shadow:
+        0 0 20px #00ff88,
+        0 0 40px #00ff88,
+        0 0 60px #00ff88;
+    
+    transform: scale(1.05);
+    transition: 0.3s;
+}
